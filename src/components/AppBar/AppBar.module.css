@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #3f51b5; /* Primary color */
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.header a:hover {
+  color: #ffeb3b; /* Hover color */
+}
